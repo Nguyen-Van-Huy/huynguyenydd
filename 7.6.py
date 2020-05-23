@@ -15,4 +15,4 @@ def file_read_from_tail(fname,linnes):
                 if len(data) >= lines or f.tell() == 0:
                     print(''.join(data[-lines:]))
                     break
-file_read_from_tail('C:/out.txt',2)
+file_read_from_tail('D/a.txt',2)
